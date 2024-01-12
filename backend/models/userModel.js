@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const { ObjectId } = mongoose.Schema;
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-
+// require("dotenv").config();
 
 
 const jobsHistorySchema = new mongoose.Schema({

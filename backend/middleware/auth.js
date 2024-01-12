@@ -1,6 +1,7 @@
 const ErrorResponse = require('../utils/errorResponse');
 const jwt = require('jsonwebtoken');
 const User = require("../models/userModel");
+// require("dotenv").config();
 
 // check is user is authenticated
 exports.isAuthenticated = async (req, res, next) => {
